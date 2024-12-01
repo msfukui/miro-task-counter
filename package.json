@@ -12,7 +12,7 @@
     "mirotone": "5"
   },
   "devDependencies": {
-    "vite": "3.0.3",
+    "vite": "3.2.11",
     "@mirohq/websdk-types": "latest",
     "typescript": "4.9.5"
   }
