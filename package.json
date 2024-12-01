@@ -1,6 +1,7 @@
 {
-  "name": "sample-hello-world",
+  "name": "Task Counter",
   "version": "0.1.0",
+  "description": "A simple Miro app that counts the number of tasks in a selected card and displays it in the notification.",
   "license": "MIT",
   "scripts": {
     "start": "vite",

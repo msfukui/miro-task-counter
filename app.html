@@ -4,35 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
-    <title>Sample Hello World</title>
+    <title>Task Counter</title>
   </head>
   <body>
-    
     <div id="root">
       <div class="grid wrapper">
         <div class="cs1 ce12">
-          <img src="/src/assets/congratulations.png" alt="" />
+          <img src="src/assets/color.svg" height=40 width=40 alt="Task Counter" />
         </div>
         <div class="cs1 ce12">
-          <h1>Congratulations!</h1>
-          <p>You've just created your first Miro app!</p>
+          <h1>Task Counter</h1>
           <p>
-            To explore more and build your own app, see the Miro Developer
-            Platform documentation.
+            Counts the number of tasks contained in the selected card(s) and displays it in the notification.
           </p>
-        </div>
-        <div class="cs1 ce12">
-          <a
-            class="button button-primary"
-            target="_blank"
-            href="https://developers.miro.com"
-          >
-            Read the documentation
-          </a>
         </div>
       </div>
     </div>
-    
     <script type="module" src="/src/app.ts"></script>
   </body>
 </html>
